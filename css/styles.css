@@ -1,0 +1,230 @@
+/* Основной цвет текста #757575; */
+/* Дополнительный цвет текста (заголовки) #212121; */
+/* Фон героя и футера #2F303A; */
+/* фон секции 1 и портфолио #E5E5E5; */
+/* Фон секции2 #F5F4FA; */
+/* цвет активный #2196F3 */
+
+:root {
+  --main-color-rext: #757575;
+  --title-color-text: #212121;
+  --action-color: #2196F3;
+  --hero-footer-color:#2F303A;
+}
+
+
+body{
+font-family: roboto; sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+background-color: #E5E5E5;
+color: var(--main-color-rext);
+}
+/* -----------------------------------------------------------------------------------------------------------------------------------Студия */
+
+/* -----------------------------------------------------------Логотип-------------------------------------------------------------- */
+.logo {
+  font-family: Raleway; sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19
+
+letter-spacing: 0.03em;
+color: var(--action-color);
+
+}
+.logo .studio {
+  color: black;
+}
+a { text-decoration:none;}
+
+.header {
+  background-color: #FFFFFF;
+}
+
+ 
+
+
+
+/* ----------------------------------навигация сайта------------------------------------------- */
+.list {
+  list-style: none;}
+
+.site-nav a 
+{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color: var(--title-color-text);
+}
+
+.site-nav a:hover, .site-nav a:focus 
+{ outline: none;
+color: var(--action-color);
+}
+
+.site-contact a {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color: var(--title-color-text);
+
+}
+.site-contact a:hover, .site-contact a:focus { outline: none;
+color: var(--action-color);
+}
+.current a {
+  color: var(--action-color);
+}
+
+/* ----------------------------------------------герой--------------------------------------------------------- */
+.title-hero {
+
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.hero { background-color:var(--hero-footer-color);}
+
+.btn-hero {
+font-family: Roboto;
+font-style: inherit;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+
+background: var(--action-color);
+}
+
+/* ---------------------особенности--------------- */
+.peculiarities-title {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: var(--title-color-text);
+}
+
+/* ---------------Чем мы занимаемся-------------------- */
+.we-do-title {
+font-weight:700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--title-color-text);
+
+}
+
+/* --------------------Наша комманда------------------------ */
+.comand-title{
+font-weight:700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--title-color-text);
+
+}
+
+.name-comand{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-color-text);
+}
+
+.discription-comand{
+text-align: center;
+
+}
+
+/* ---------------Футер ------------------------*/
+.studio.footer {
+  color: #FFFFFF;
+}
+.footer-section {
+  background-color: var(--hero-footer-color);
+}
+
+.address a {
+
+font-style: inherit;
+color: rgba(255, 255, 255, 0.6);
+
+.address a:hover, .address a:focus {
+
+}
+}
+ .address {
+font-style: normal;
+color: #FFFFFF;
+ }
+  
+ .address a:hover, .address a:focus {
+   color: var(--action-color);
+ }
+
+ /* ----------------------------------------------------------------------------------------------------------------------------Портфолио */
+
+ /* Фильтр конпки */
+ .btn-portfolio {
+font-family: Roboto; sans-serif;
+font-style: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-color-text);
+background-color:  #F5F4FA;
+
+
+
+ }
+.btn-portfolio:hover, .btn-porfolio:focus { outline: none;
+  color: #FFFFFF;
+  background-color: var(--action-color);
+}
+
+.tittle-porfolio {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--title-color-text);
+}
+.text-portfolio {
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+}
